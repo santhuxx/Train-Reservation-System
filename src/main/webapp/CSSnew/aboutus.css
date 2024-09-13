@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+
+/* Set background image and styling for the entire page */
+body {
+    background-image: url('backg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Styling for a container with a dark background and white text */
+.container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Styling for the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space between;
+    align-items: center;
+}
+
+/* Styling for the logo in the navigation bar */
+.logo1 {
+    width: 30px;
+    height: 30px;
+    margin-right: 50px;
+}
+
+/* Styling for the navigation links in the navigation bar */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Styling for individual navigation list items */
+.navbar li {
+    margin-right: 20px;
+}
+
+/* Styling for navigation links */
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Styling for a section with a grid layout */
+section {
+    display: grid;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Styling for a content section */
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 25% 0% 25%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+}
+
+/* Styling for the heading within the content section */
+.content h2 {
+    text-transform: uppercase;
+    font-size: 36px;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+}
+
+/* Styling for paragraphs within the content section */
+.content p {
+    font-weight: 300;
+    letter-spacing: 3px;
+    opacity: 1;
+    text-align: justify;
+    line-height: 1.7;
+    font-size: 14px;
+}

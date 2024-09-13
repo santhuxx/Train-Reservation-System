@@ -1,0 +1,78 @@
+@charset "ISO-8859-1";
+
+/* Styling for the body, including the background image */
+body {
+    background-image: url('backg.jpg'); /* Replace with the correct path to your image file */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Styling for a container with a dark background and white text */
+.container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Styling for the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styling for the logo in the navigation bar */
+.logo1 {
+    width: 30px; /* Set the width of the logo to 30 pixels */
+    height: 30px; /* Allow the height to adjust proportionally */
+    margin-right: 10px; /* Adjust the margin between the logo and navigation */
+}
+
+/* Styling for the navigation links in the navigation bar */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Styling for individual navigation list items */
+.navbar li {
+    margin-right: 20px;
+}
+
+/* Styling for navigation links */
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Styling for a container with an absolute position and semi-transparent white background */
+.container1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    text-align: left;
+}
+
+/* Styling for a submit button */
+input[type="submit"] {
+    background-color: #ff0000; /* Red background color for the button */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style for the delete button on hover */
+input[type="submit"]:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}

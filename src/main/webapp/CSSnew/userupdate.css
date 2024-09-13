@@ -1,0 +1,79 @@
+@charset "ISO-8859-1";
+
+
+
+body {
+            background-image: url('backg.png'); /* Replace with the correct path to your image file */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Keeps the background fixed when scrolling */
+            font-family: 'Roboto', sans-serif;
+        }
+        
+.container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo1 {
+    width: 30px; /* Set the width of the logo to 30 pixels */
+    height: 30px; /* Allow the height to adjust proportionally */
+    margin-right: 10px;
+     /* Adjust the margin between the logo and navigation */
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    text-align: left;}
+
+input[type="submit"] {
+    background-color: #ff0000; /* Red background color for the button */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style for the delete button on hover */
+input[type="submit"]:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}
+
+
+
+
+
+
+
+

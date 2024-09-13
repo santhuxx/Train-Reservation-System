@@ -1,0 +1,123 @@
+@charset "ISO-8859-1";
+
+/* Set background image and styling for the entire page */
+body {
+    background-image: url('backdark.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Styling for a container with a dark background and white text */
+.container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Styling for the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styling for the logo in the navigation bar */
+.logo1 {
+    width: 30px;
+    height: 30px;
+    margin-right: 50px;
+}
+
+/* Styling for the navigation links in the navigation bar */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Styling for individual navigation list items */
+.navbar li {
+    margin-right: 20px;
+}
+
+/* Styling for navigation links */
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Styling for a section with text content */
+.text1 {
+    display: flex;
+    height: 80%;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 40px;
+}
+
+/* Styling for a button element */
+button {
+    width: 100px;
+    height: 50px;
+    color: #000;
+    font-size: 12px;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+/* Styling for cards with background images */
+.card {
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 50px 50px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20% 20%;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+/* Styling for the first card with a train image background */
+.card1 {
+    background-image: url(train.png);
+}
+
+/* Styling for the second card with a station image background */
+.card2 {
+    background-image: url(station.png);
+}
+
+/* Hover effect on cards */
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Styling for heading text within cards */
+h5 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 15px rgb(0, 0, 0);
+}
+
+/* Styling for paragraph text within cards */
+p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+}

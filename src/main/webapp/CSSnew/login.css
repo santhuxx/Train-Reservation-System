@@ -1,0 +1,103 @@
+@charset "ISO-8859-1";
+
+
+body {
+		font-family: 'Roboto', sans-serif;
+     	background-image: url('backg.png'); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+           
+}
+
+/* Style the container div */
+.container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Style the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the logo */
+.logo1 {
+    width: 30px; /* Set the width of the logo to 30 pixels */
+    height: 30px; /* Allow the height to adjust proportionally */
+    margin-right: 10px;
+     /* Adjust the margin between the logo and navigation */
+}
+
+/* Style the navigation menu */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the container1 div */
+.container1 {
+    position: absolute;
+    top: 50%;
+    left: 71.25%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    text-align: center;}
+
+/* Style the form elements */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
